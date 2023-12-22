@@ -1,0 +1,16 @@
+rm -f main
+gcc main.c -o main
+n=66
+time=0.000204s
+n=129
+time=0.001413s
+n=258
+time=0.015037s
+n=513
+time=0.131465s
+n=1026
+time=0.773859s
+n=2049
+time=6.890872s
+n=2052
+time=37.068995s

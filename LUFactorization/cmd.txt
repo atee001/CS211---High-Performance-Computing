@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=/act/opt/intel/composer_xe_2013.3.163/mkl/lib/intel64:$LD_LIBRARY_PATH
+sbatch -p batch -t 00:10:00 bash_commands.sh

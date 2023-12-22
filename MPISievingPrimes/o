@@ -1,0 +1,177 @@
+func=sieve0, pnum=24, count=455052511, time=11.476359
+#!/bin/bash
+#SBATCH -o sieve0_1.o
+#SBATCH -e sieve0_1.err
+#SBATCH -J sieve0_1
+#SBATCH -N 1
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 24 ../main sieve0 10000000000func=sieve0, pnum=48, count=455052511, time=5.803200
+#!/bin/bash
+#SBATCH -o sieve0_2.o
+#SBATCH -e sieve0_2.err
+#SBATCH -J sieve0_2
+#SBATCH -N 2
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 48 ../main sieve0 10000000000func=sieve0, pnum=72, count=455052511, time=3.878357
+#!/bin/bash
+#SBATCH -o sieve0_3.o
+#SBATCH -e sieve0_3.err
+#SBATCH -J sieve0_3
+#SBATCH -N 3
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 72 ../main sieve0 10000000000func=sieve0, pnum=96, count=455052511, time=2.919330
+#!/bin/bash
+#SBATCH -o sieve0_4.o
+#SBATCH -e sieve0_4.err
+#SBATCH -J sieve0_4
+#SBATCH -N 4
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 96 ../main sieve0 10000000000#!/bin/bash
+#SBATCH -o sieve0_5.o
+#SBATCH -e sieve0_5.err
+#SBATCH -J sieve0_5
+#SBATCH -N 5
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 120 ../main sieve0 10000000000func=sieve1, pnum=24, count=455052511, time=5.748649
+#!/bin/bash
+#SBATCH -o sieve1_1.o
+#SBATCH -e sieve1_1.err
+#SBATCH -J sieve1_1
+#SBATCH -N 1
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 24 ../main sieve1 10000000000func=sieve1, pnum=48, count=455052511, time=2.904685
+#!/bin/bash
+#SBATCH -o sieve1_2.o
+#SBATCH -e sieve1_2.err
+#SBATCH -J sieve1_2
+#SBATCH -N 2
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 48 ../main sieve1 10000000000func=sieve1, pnum=72, count=455052511, time=1.942547
+#!/bin/bash
+#SBATCH -o sieve1_3.o
+#SBATCH -e sieve1_3.err
+#SBATCH -J sieve1_3
+#SBATCH -N 3
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 72 ../main sieve1 10000000000func=sieve1, pnum=96, count=455052511, time=1.458922
+#!/bin/bash
+#SBATCH -o sieve1_4.o
+#SBATCH -e sieve1_4.err
+#SBATCH -J sieve1_4
+#SBATCH -N 4
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 96 ../main sieve1 10000000000#!/bin/bash
+#SBATCH -o sieve1_5.o
+#SBATCH -e sieve1_5.err
+#SBATCH -J sieve1_5
+#SBATCH -N 5
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 120 ../main sieve1 10000000000func=sieve2, pnum=24, count=455052511, time=5.833437
+#!/bin/bash
+#SBATCH -o sieve2_1.o
+#SBATCH -e sieve2_1.err
+#SBATCH -J sieve2_1
+#SBATCH -N 1
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 24 ../main sieve2 10000000000func=sieve2, pnum=48, count=455052511, time=2.943937
+#!/bin/bash
+#SBATCH -o sieve2_2.o
+#SBATCH -e sieve2_2.err
+#SBATCH -J sieve2_2
+#SBATCH -N 2
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 48 ../main sieve2 10000000000func=sieve2, pnum=72, count=455052511, time=1.957233
+#!/bin/bash
+#SBATCH -o sieve2_3.o
+#SBATCH -e sieve2_3.err
+#SBATCH -J sieve2_3
+#SBATCH -N 3
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 72 ../main sieve2 10000000000func=sieve2, pnum=96, count=455052511, time=1.463318
+#!/bin/bash
+#SBATCH -o sieve2_4.o
+#SBATCH -e sieve2_4.err
+#SBATCH -J sieve2_4
+#SBATCH -N 4
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 96 ../main sieve2 10000000000#!/bin/bash
+#SBATCH -o sieve2_5.o
+#SBATCH -e sieve2_5.err
+#SBATCH -J sieve2_5
+#SBATCH -N 5
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 120 ../main sieve2 10000000000func=sieve3, pnum=24, count=455052511, time=0.912960
+#!/bin/bash
+#SBATCH -o sieve3_1.o
+#SBATCH -e sieve3_1.err
+#SBATCH -J sieve3_1
+#SBATCH -N 1
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 24 ../main sieve3 10000000000func=sieve3, pnum=48, count=455052511, time=0.456787
+#!/bin/bash
+#SBATCH -o sieve3_2.o
+#SBATCH -e sieve3_2.err
+#SBATCH -J sieve3_2
+#SBATCH -N 2
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 48 ../main sieve3 10000000000func=sieve3, pnum=72, count=455052511, time=0.304409
+#!/bin/bash
+#SBATCH -o sieve3_3.o
+#SBATCH -e sieve3_3.err
+#SBATCH -J sieve3_3
+#SBATCH -N 3
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 72 ../main sieve3 10000000000func=sieve3, pnum=96, count=455052511, time=0.229449
+#!/bin/bash
+#SBATCH -o sieve3_4.o
+#SBATCH -e sieve3_4.err
+#SBATCH -J sieve3_4
+#SBATCH -N 4
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 96 ../main sieve3 10000000000#!/bin/bash
+#SBATCH -o sieve3_5.o
+#SBATCH -e sieve3_5.err
+#SBATCH -J sieve3_5
+#SBATCH -N 5
+#SBATCH -t 00:10:00
+
+module load mpich-3.2.1
+mpirun -np 120 ../main sieve3 10000000000

@@ -1,0 +1,14 @@
+rm -f main
+gcc main.c -o main
+n=2052
+Register Blocking + Cache Blocking
+time=10.791748s
+n=2052
+Register Blocking + Cache Blocking
+time=5.666311s
+n=2052
+Register Blocking + Cache Blocking
+time=5.491452s
+n=2052
+Register Blocking + Cache Blocking
+time=5.422026s

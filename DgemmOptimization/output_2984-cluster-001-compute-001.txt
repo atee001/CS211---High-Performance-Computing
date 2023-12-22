@@ -1,0 +1,14 @@
+rm -f main
+gcc main.c -o main
+n=2048
+ijk2 Version
+time=31.192477s
+n=2048
+ijk2 Version
+time=13.811142s
+n=2048
+ijk2 Version
+time=13.492618s
+n=2048
+ijk2 Version
+time=10.603764s

@@ -1,0 +1,21 @@
+make: 'main' is up to date.
+n=1000, pad=1
+time=0.063136s
+n=1000, pad=1
+time=0.156361s
+n=2000, pad=1
+time=0.209030s
+n=2000, pad=1
+time=1.680327s
+n=3000, pad=1
+time=0.663943s
+n=3000, pad=1
+time=6.541332s
+n=4000, pad=1
+time=1.336713s
+n=4000, pad=1
+time=16.312457s
+n=5000, pad=1
+time=2.658872s
+n=5000, pad=1
+time=32.099974s

@@ -1,0 +1,23 @@
+make: 'main' is up to date.
+n=2048
+time=85.385483s
+n=2048
+time=8.800675s
+n=2048
+time=76.933589s
+n=2048
+time=174.426595s
+Error at (536,901): standard=10.051642, output=-0.628505
+Error at (173,989): standard=-27.996144, output=-0.523074
+Error at (1856,1581): standard=-16.175956, output=-0.148562
+Error at (989,1994): standard=-24.114758, output=0.521551
+Error at (719,1084): standard=-5.137735, output=0.108269
+Error at (691,1855): standard=25.781033, output=0.599529
+Error at (1981,1635): standard=3.908896, output=0.038244
+Error at (1368,1894): standard=-6.329527, output=0.012076
+Error at (508,1830): standard=2.130068, output=-0.678530
+Error at (1668,1164): standard=7.063415, output=-0.631170
+n=2048
+time=27.336127s
+n=2048
+time=173.877094s

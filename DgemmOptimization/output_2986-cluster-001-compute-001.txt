@@ -1,0 +1,13 @@
+make: 'main' is up to date.
+n=2052
+ijk2 Version
+time=22.855194s
+n=2052
+ijk2 Version
+time=9.079087s
+n=2052
+ijk2 Version
+time=9.203371s
+n=2052
+ijk2 Version
+time=10.480664s

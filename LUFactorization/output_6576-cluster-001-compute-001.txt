@@ -1,0 +1,13 @@
+rm -f main
+gcc main.c -o main -I /act/opt/intel/composer_xe_2013.3.163/mkl/include \
+-L /act/opt/intel/composer_xe_2013.3.163/mkl/lib/intel64 \
+-O3 -DMKL_ILP64 -lmkl_avx2 -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -m64
+n=4096, pad=1
+time=1.486521s
+n=4096, pad=1
+time=0.021835s
+n=2, pad=1
+time=0.000245s
+n=2, pad=1
+time=0.000002s
+Error at row 1: standard=-0.565084, output=1.449089

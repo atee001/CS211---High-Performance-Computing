@@ -1,0 +1,50 @@
+rm -f main
+gcc main.c -o main
+n=2052
+Register Blocking + Cache Blocking
+time=6.959174s
+Error at (1293,1357): standard=11.521909, output=-0.910584
+Error at (2014,259): standard=20.089000, output=0.655919
+Error at (1134,209): standard=-23.487000, output=-0.932563
+Error at (1157,99): standard=-11.646025, output=-0.742684
+Error at (277,380): standard=-7.846081, output=-0.010500
+Error at (1847,582): standard=4.460868, output=0.281638
+Error at (1446,1144): standard=2.730622, output=-0.009420
+Error at (11,408): standard=8.726587, output=-0.695199
+Error at (636,1078): standard=-3.854737, output=0.532935
+Error at (45,790): standard=15.995032, output=0.834712
+n=2052
+Register Blocking + Cache Blocking
+time=4.433320s
+Error at (421,893): standard=-2.967633, output=0.504303
+Error at (815,10): standard=5.760579, output=0.652414
+Error at (1528,215): standard=-29.036524, output=0.442151
+Error at (1078,12): standard=-3.181925, output=0.899198
+Error at (1516,1566): standard=14.659184, output=0.839010
+Error at (521,1729): standard=-31.010739, output=-0.633132
+Error at (371,2018): standard=-13.161883, output=0.754965
+Error at (1434,1310): standard=7.145737, output=0.001600
+n=2052
+Register Blocking + Cache Blocking
+time=4.224654s
+Error at (1703,200): standard=8.793129, output=-0.738225
+Error at (859,1087): standard=23.737103, output=0.074585
+Error at (590,629): standard=-30.653928, output=0.872800
+Error at (142,720): standard=19.706416, output=-0.407387
+Error at (10,1454): standard=2.230069, output=0.803777
+Error at (1378,911): standard=6.112879, output=-0.168611
+Error at (625,281): standard=-20.450153, output=-0.828950
+Error at (628,1321): standard=1.582352, output=-0.949873
+n=2052
+Register Blocking + Cache Blocking
+time=4.230259s
+Error at (40,536): standard=29.358481, output=-0.757862
+Error at (1093,1341): standard=-16.133445, output=-0.636167
+Error at (1498,1521): standard=13.349508, output=0.632610
+Error at (937,1756): standard=-15.426310, output=0.586282
+Error at (1187,1777): standard=-20.213258, output=0.736673
+Error at (282,519): standard=-23.369328, output=0.704197
+Error at (609,455): standard=-19.552606, output=0.220180
+Error at (2010,1493): standard=16.083105, output=0.887317
+Error at (1771,1002): standard=10.425711, output=0.601085
+Error at (991,395): standard=9.559739, output=0.753864

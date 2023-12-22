@@ -1,0 +1,16 @@
+rm -f main
+gcc main.c -o main
+n=2048
+time=293.785486s
+n=2048
+time=26.225123s
+n=2048
+time=202.357588s
+n=2048
+time=305.080544s
+n=2048
+time=38.433066s
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6020 ON cluster-001-compute-002 CANCELLED AT 2023-10-23T22:50:17 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 6020.5 ON cluster-001-compute-002 CANCELLED AT 2023-10-23T22:50:17 DUE TO TIME LIMIT ***
+srun: error: cluster-001-compute-002: task 0: Terminated

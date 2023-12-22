@@ -1,0 +1,4 @@
+rm -f main
+gcc main.c -o main
+n=2052
+time=51.959288s

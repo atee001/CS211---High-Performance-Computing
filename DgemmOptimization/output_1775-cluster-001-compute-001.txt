@@ -1,0 +1,5 @@
+rm -f main
+gcc main.c -o main
+Size of double: 8 bytes
+n=2050
+time=43.217173s

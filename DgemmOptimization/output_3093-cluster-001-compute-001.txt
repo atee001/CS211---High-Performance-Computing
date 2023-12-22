@@ -1,0 +1,14 @@
+rm -f main
+gcc main.c -o main
+n=2052
+Register Blocking + Cache Blocking
+time=6.134270s
+Error at (1149,650): standard=-22.885306, output=-0.353479
+Error at (1969,394): standard=2.788333, output=0.525465
+Error at (994,1047): standard=-4.055939, output=0.400361
+Error at (393,426): standard=-10.810428, output=0.439509
+Error at (501,721): standard=-11.843566, output=0.286782
+Error at (1187,955): standard=-11.184460, output=0.177424
+Error at (1552,995): standard=-12.822697, output=0.414083
+Error at (1499,1641): standard=-7.724670, output=-0.803281
+Error at (1287,919): standard=-28.727625, output=-0.375873

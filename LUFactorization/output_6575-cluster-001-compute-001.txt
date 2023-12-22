@@ -1,0 +1,5 @@
+make: 'main' is up to date.
+n=4096, pad=1
+time=1.489775s
+n=4096, pad=1
+L!!!U!!!time=0.022319s
